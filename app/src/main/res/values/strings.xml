@@ -94,4 +94,5 @@
     <string name="accion_preferencias">Preferencias</string>
     <string name="accion_acerca_de">acerca de</string>
     <string name="accion_salir">salir</string>
+    <string name="name">Nombre</string>
 </resources>
