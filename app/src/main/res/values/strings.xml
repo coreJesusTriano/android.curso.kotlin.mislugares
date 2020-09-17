@@ -105,4 +105,12 @@
     <string name="commentLabel">Comentario:</string>
     <string name="commentEdit">introduce tus notas</string>
     <string name="typeLabel">Tipo:</string>
+    <string name="photo">fotografía</string>
+    <string name="placeName">Nombres del lugar</string>
+    <string name="typeLogo">logo del tipo</string>
+    <string name="placeType">tipo del lugar</string>
+    <string name="cameraLogo">logo cámara</string>
+    <string name="galleryLogo">logo galería</string>
+    <string name="dateEdit">fecha visita</string>
+    <string name="hourEdit">hora visita</string>
 </resources>
