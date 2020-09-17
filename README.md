@@ -54,7 +54,7 @@ Comentarios y documentación javadoc	http://www.androidcurso.com/index.php/27
 
 El encapsulamiento y la visibilidad en Java http://www.androidcurso.com/index.php/32
 
-La clase Lugar	http://www.androidcurso.com/index.php/460 
+***La clase Lugar***	http://www.androidcurso.com/index.php/460 
 
 - define la clase *Lugar*
 - define también la clase *GeoPunto*
@@ -65,17 +65,17 @@ La sobrecarga en Java	http://www.androidcurso.com/index.php/30
 
 El polimorfismo en Java	 http://www.androidcurso.com/index.php/31
 
-Clases abstractas, interfaces y herencia múltiple http://www.androidcurso.com/index.php/686
+***Clases abstractas, interfaces y herencia múltiple*** http://www.androidcurso.com/index.php/686
 
 - Define la interfaz *RepositorioLugares*
 
-Enumerados: La clase TipoLugar http://www.androidcurso.com/index.php/461 
+***Enumerados: La clase TipoLugar*** http://www.androidcurso.com/index.php/461 
 
 - Define el enum *TipoLugar*
 
 Las colecciones en Java	http://www.androidcurso.com/index.php/462 
 
-La clase LugaresLista http://www.androidcurso.com/index.php/929  
+***La clase LugaresLista*** http://www.androidcurso.com/index.php/929  
 
 - Define la clase *LugaresLista*
 
@@ -136,6 +136,13 @@ Colecciones en Kotlin: List, Set y Map http://www.androidcurso.com/index.php/925
 La clase Lugares http://www.androidcurso.com/index.php/929 
 
 - Es el mismo enlace de antes para la clase *LugaresLista*
+
+## HASTA AQUÍ HE LLEGADO REVISANDO
+
+Para acceder a los componentes/vistas de nuestro layouts desde la clase kotlin debemos importar el layout correspondiente, del siguiente modo, con ello podremos acceder a cada vista, por su id:
+```kotlin
+import kotlinx.android.synthetic.main.mi_layout.*
+```
 
 # Unidad 2 Introducción a Android y entorno de desarrollo
 
@@ -307,7 +314,3 @@ Diálogos de selección de fecha y hora http://www.androidcurso.com/index.php/48
 
 
 
-Para acceder a los componentes/vistas de nuestro layouts desde la clase kotlin debemos importar el layout correspondiente, del siguiente modo, con ello podremos acceder a cada vista, por su id:
-```kotlin
-import kotlinx.android.synthetic.main.mi_layout.*
-```
