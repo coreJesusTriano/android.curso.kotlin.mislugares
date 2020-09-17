@@ -1,4 +1,4 @@
-package com.example.mislugares
+package com.example.mislugares.presentacion
 
 import android.os.Bundle
 import com.google.android.material.appbar.CollapsingToolbarLayout
@@ -7,6 +7,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.example.mislugares.R
 
 class MainActivity : AppCompatActivity() {
 

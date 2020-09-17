@@ -1,8 +1,8 @@
-package com.example.mislugares
+package com.example.mislugares.modelo
 
 data class GeoPunto(val longitud: Double, val latitud: Double) {
     companion object {
-        val SIN_POSICION = GeoPunto(0.0,0.0)
+        val SIN_POSICION = GeoPunto(0.0, 0.0)
     }
 
     fun distancia(punto: GeoPunto): Double {
