@@ -13,5 +13,11 @@ enum class TipoLugar private constructor(val texto:String, val recurso:Int){
     NATURALEZA("Naturaleza", 0),
     GASOLINERA("Gasolinera", 0)
 
-
+    fun getNombres(): Array<String?> {
+        val resultado = arrayOfNulls<String>(TipoLugar.values().size)
+        for (tipo in TipoLugar.values()) {
+            resultado[tipo.ordinal] = tipo.texto
+        }
+        return resultado
+    }
 }
