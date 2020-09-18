@@ -11,7 +11,7 @@ enum class TipoLugar private constructor(val texto:String, val recurso:Int){
     EDUCACION("Educación", 0),
     DEPORTE("Deporte", 0),
     NATURALEZA("Naturaleza", 0),
-    GASOLINERA("Gasolinera", 0)
+    GASOLINERA("Gasolinera", 0);
 
     fun getNombres(): Array<String?> {
         val resultado = arrayOfNulls<String>(TipoLugar.values().size)
