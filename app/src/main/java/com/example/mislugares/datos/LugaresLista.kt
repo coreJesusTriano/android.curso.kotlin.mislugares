@@ -10,7 +10,7 @@ class LugaresLista  : RepositorioLugares {
         return listaLugares[id]
     }
 
-    override fun añade(lugar: Lugar) {
+    override fun add(lugar: Lugar) {
         listaLugares.add(lugar)
     }
 
@@ -24,7 +24,7 @@ class LugaresLista  : RepositorioLugares {
         listaLugares.removeAt(id)
     }
 
-    override fun tamaño(): Int {
+    override fun size(): Int {
         return listaLugares.size
     }
 

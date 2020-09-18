@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.example.mislugares.R
+import com.example.mislugares.datos.LugaresLista
+import com.example.mislugares.datos.RepositorioLugares
 
 class MainActivity : AppCompatActivity() {
 
