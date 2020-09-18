@@ -12,4 +12,6 @@ enum class TipoLugar private constructor(val texto:String, val recurso:Int){
     DEPORTE("Deporte", 0),
     NATURALEZA("Naturaleza", 0),
     GASOLINERA("Gasolinera", 0)
+
+
 }
