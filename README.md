@@ -139,6 +139,7 @@ La clase Lugares http://www.androidcurso.com/index.php/929
 
 ## HASTA AQUÍ HE LLEGADO REVISANDO
 
+
 Para acceder a los componentes/vistas de nuestro layouts desde la clase kotlin debemos importar el layout correspondiente, del siguiente modo, con ello podremos acceder a cada vista, por su id:
 ```kotlin
 import kotlinx.android.synthetic.main.mi_layout.*
@@ -195,19 +196,28 @@ Los Layouts en Android  http://www.androidcurso.com/index.php/114
 
 Uso de ConstraitLayout http://www.androidcurso.com/index.php/881 
 
-Introducción a Material Design  http://www.androidcurso.com/index.php/688 
+***Introducción a Material Design***  http://www.androidcurso.com/index.php/688 
+
+- ScrollingActivity -> **MainActivity**
+- En *Kotlin* este proceso es realizado automáticamente. Lo único que tienes que hacer es asegurarte que se ha importado el paquete kotlinx.android.synthetic.main.activity_main.*
 
 Definición de la paleta de colores de la aplicación  http://www.androidcurso.com/index.php/689
 
-Mis Lugares: Primeras actividades http://www.androidcurso.com/index.php/115  
+***Mis Lugares: Primeras actividades*** http://www.androidcurso.com/index.php/115  
+
+- content_main.xml 4 botones
 
 Uso de recursos alternativos en Android http://www.androidcurso.com/index.php/116 
+
+- dimens para cambiar tamaños según pantalla
 
 Tipos de recursos 	http://www.androidcurso.com/index.php/222
 
 Recursos del sistema	http://www.androidcurso.com/index.php/471
 
 Estilos y Temas en Android	http://www.androidcurso.com/index.php/118
+
+- Definir estilos y temas
 
 Uso práctico de Vistas http://www.androidcurso.com/index.php/119
 
@@ -222,6 +232,8 @@ Introducción a la unidad http://www.androidcurso.com/index.php/475
 
 Creación de nuevas actividades http://www.androidcurso.com/index.php/122
 
+- Acercade
+
 Intercambio de datos entre actividades http://www.androidcurso.com/index.php/123
 
 Añadiendo un menú en Android http://www.androidcurso.com/index.php/124
@@ -232,11 +244,22 @@ Creación y uso de iconos http://www.androidcurso.com/index.php/125
 
 Añadir preferencias en Android http://www.androidcurso.com/index.php/476 
 
+- preferencias
+
 Acceder a objetos globales de la aplicación  http://www.androidcurso.com/index.php/931  
+
+- define la clase *Aplicacion*
 
 Uso de la arquitectura Clean  http://www.androidcurso.com/index.php/932 
 
 Creando actividades en Mis Lugares	http://www.androidcurso.com/index.php/474
+
+- *VistaLugarActivity*
+- **lanzarVistaLugar**() en MainActivity con dialogo de selección
+- ocultar atributos sin datos con setVisibility(View.GONE) // libera el espacio además de hacerlo invisible
+- Añadir una barra de acciones a VistaLugarActivity res/menu/vista_lugar.xml
+- añade a CasosUsoLugar borrar()
+- *EdicionLugarActivity*
 
 
 # Unidad 5    RecyclerView e Intenciones
